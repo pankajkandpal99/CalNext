@@ -1,18 +1,10 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { notFound } from "next/navigation";
 import prisma from "../lib/db";
 import { requireUser } from "../lib/hooks";
 import EmptyState from "../components/EmptyState";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import {
-  ExternalLink,
-  Link2,
-  Pen,
-  Settings,
-  Trash,
-  Users2,
-} from "lucide-react";
+import { ExternalLink, Pen, Settings, Trash, Users2 } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
